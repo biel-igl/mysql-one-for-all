@@ -1,0 +1,1 @@
+SELECT COUNT(h.history_music_id) musicas_no_historico FROM history_music h WHERE h.user_id = 1;
