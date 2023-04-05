@@ -1,0 +1,1 @@
+SELECT a.name_artist artista, b.name_album album FROM artist a INNER JOIN albums b ON b.artist_id = a.artist_id WHERE a.name_artist = 'Elis Regina' ORDER BY album;
